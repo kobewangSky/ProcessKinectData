@@ -117,4 +117,8 @@ while Index <= len(la_list):
     elif c == 115:
         resetparam()
         continue
+    elif c == 101:
+        if Index != 0:
+            Index = Index - 1
+        continue
     Index = Index + 1
